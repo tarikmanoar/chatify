@@ -17,14 +17,18 @@
   "authors": [
     {
       "name": "Munaf A. Mahdi",
-      "email": "munafaqeelmahdi@gmail.com"
+      "email": "munafaqeelmahdi@gmail.com",
+      "homepage": "https://chatify.munafio.com/",
+      "role": "Developer"
     }
   ],
   "homepage": "https://github.com/munafio/chatify",
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "pusher/pusher-php-server": "^6.0|^7.0|^7.1"
+    "php": "^8.0",
+    "illuminate/support": "^11.0",
+    "laravel/framework": "^11.0"
   },
   "autoload": {
     "psr-4": {
